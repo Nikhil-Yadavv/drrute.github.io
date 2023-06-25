@@ -12,7 +12,7 @@ ul{
     list-style: none;
 }
 .header{
-    width: 100%;
+    width: 100vw;
     height: 115vh;
     background-image: url(./assets/s.webp);
     background-position: bottom;
@@ -82,7 +82,7 @@ ul{
     letter-spacing: 2px;
 }
 .below{
-    margin-top: 50px;
+    margin-top: 30vh;
     margin-left: 120px;
     height: 300px;
     color: white;
@@ -191,7 +191,7 @@ ul{
 }
 .sub5{
     width: 40%;
-    margin-left: 120px;
+    margin-left: 10vw;
 }
 .part1{
     margin-top: 60px;
@@ -278,6 +278,9 @@ ul{
     .impact{
         height: 80vh;
     }
+    .below{
+        width: 80%;
+    }
     .sub5{
         margin-left: 200px;
         margin-bottom: 20px;
@@ -299,7 +302,7 @@ ul{
             background-size: cover;
         }
     .below{
-        margin-top: 250px;
+        margin-top: 22vh;
         font-weight: bolder;
     }
     .main-header{
@@ -308,12 +311,12 @@ ul{
     }
     .logo{
         padding-top: 20px;
-        margin-left: 300px;
+        margin-left: 40vw;
     }
     .list2{
-        margin-left: 200px;
+        margin-left: 25vw;
         display: block;
-        margin-top: 50px;
+        margin-top: 5vh;
     }
     .list2 li{
         padding: 10px;
@@ -321,75 +324,37 @@ ul{
         font-weight: bold;
     }
     .line{
-        margin-left: 50px;
+        margin-left: 10vw;
     }
     .list1{
-        margin-right: 80px;
+        margin-right: 15vw;
     }
     .header{
         margin-top: -30px;
     }
 }
 
-@media (max-width: 578px) {
-    .height{
-        margin-left: 0;
+@media (max-width:576px) {
+    .sub5{
+        margin-left: 15vw;
+    }
+    .vision p,h6{
+        width: 80%;
     }
     .photo{
-        margin-top: 200px;
-    }
-    .impact{
-        height: 80vh;
-    }
-    .sub5{
-        margin-left: 200px;
-        margin-bottom: 20px;
-    }
-    .ch{
-        padding-top: 300px;
-    }
-    .pic1{
-    background-position: bottom;
-    background-size: cover;
-    }
-    .pic2{
-        background-position: bottom;
-        background-size: cover;
-        margin: 5px 0;
-        }
-        .pic3{
-            background-position: bottom;
-            background-size: cover;
-        }
-    .below{
-        margin-top: 250px;
-        font-weight: bolder;
-    }
-    .main-header{
-        display:block;
-        /* justify-content: center; */
-    }
-    .logo{
-        padding-top: 20px;
-        margin-left: 300px;
-    }
-    .list2{
-        margin-left: 200px;
-        display: block;
-        margin-top: 50px;
-    }
-    .list2 li{
-        padding: 10px;
-        font-size: large;
-        font-weight: bold;
+        margin-top: 80px;
     }
     .line{
-        margin-left: 50px;
+        width: 80%;
+    }
+    .list1 a{
+        padding: 5px;
     }
     .list1{
-        margin-right: 80px;
+        margin-right: 1vw;
     }
-    .header{
-        margin-top: -30px;
+    .below{
+        display: none;
     }
 }
+
