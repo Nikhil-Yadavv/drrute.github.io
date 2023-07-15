@@ -676,12 +676,12 @@ font-family: 'Space Grotesk', sans-serif;
     margin: 0 50px;
 }
 .in_situ p{
-    font-size: 1.4rem;
-    line-height: 25px;
+    font-size: 1.1rem;
+    line-height: 23px;
 }
 .in_situ p span{
-    font-size: 1.4rem;
-    line-height: 25px;
+    font-size: 1.1rem;
+    line-height: 23px;
 }
 .insitucontent{
     flex: 2;
